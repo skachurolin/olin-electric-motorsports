@@ -58,7 +58,7 @@ int can_send(can_frame_t* frame) {
     select_mob(frame->mob);
     mob_reset();
 
-    mob_configure(frame->id, 0, frame->dlc);
+    mob_configure(frame->id, (uint32_t)0, frame->dlc);
 
     // Set the message
     for (uint8_t i = 0; i < frame->dlc; i++) {

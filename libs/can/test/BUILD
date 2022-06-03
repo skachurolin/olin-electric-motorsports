@@ -23,6 +23,7 @@ cc_firmware(
     visibility = ["//visibility:public"],
     deps = [
         ":test_can_api",
+        "//libs/gpio",
         "//libs/can",
         "//libs/timer",
     ],

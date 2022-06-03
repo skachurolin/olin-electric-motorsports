@@ -4,7 +4,7 @@ subscribe:
     mob: 1
 publish:
   - name: test_msg
-    id: 0x700
+    id: 0x00000700
     freq_hz: 10
     signals:
       - name: test_sig

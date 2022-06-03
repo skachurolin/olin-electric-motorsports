@@ -31,17 +31,17 @@ typedef enum {
         CANCDMOB = 0x00; \
     } while (0);
 
-#define mob_configure(id, mask, dlc)             \
-    do {                                         \
-        CANIDT1 = id >> 3;                       \
-        CANIDT2 = id << 5;                       \
-        CANIDT3 = 0;                             \
-        CANIDT4 = 0;                             \
-        CANIDM1 = mask >> 3;                     \
-        CANIDM2 = mask << 5;                     \
-        CANIDM3 = 0;                             \
-        CANIDM4 = (1 << RTRMSK) | (1 << IDEMSK); \
-        CANCDMOB |= dlc << DLC0;                 \
+#define mob_configure(id, mask, dlc)                           \
+    do {                                                       \
+        CANIDT1 = id >> 21;                                    \
+        CANIDT2 = id >> 13;                                    \
+        CANIDT3 = id >> 5;                                     \
+        CANIDT4 = id << 3;                                     \
+        CANIDM1 = mask >> 21;                                  \
+        CANIDM2 = mask >> 13;                                  \
+        CANIDM3 = mask >> 5;                                   \
+        CANIDM4 = (mask << 3) | (1 << RTRMSK) | (1 << IDEMSK); \
+        CANCDMOB |= (1 << IDE) | ((dlc & 0xF) << DLC0);        \
     } while (0);
 
 #define mob_write_data(data) (CANMSG = data)
