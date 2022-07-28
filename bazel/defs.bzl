@@ -1,5 +1,7 @@
 load("@bazel_tools//tools/cpp:toolchain_utils.bzl", "find_cpp_toolchain")
 load("@bazel_tools//tools/build_defs/pkg:pkg.bzl", "pkg_tar")
+load("@rules_pkg//pkg:mappings.bzl", "pkg_filegroup", "strip_prefix")
+load("@rules_pkg//pkg:zip.bzl", "pkg_zip")
 load("@rules_cc//cc:defs.bzl", "cc_binary")
 
 ### cc_firmware
@@ -302,10 +304,15 @@ def _kibot_impl(ctx):
     pcb = ctx.file.pcb_file
 
     output = ctx.actions.declare_file("{}".format(ctx.attr.name))
+    if len(ctx.outputs.artifacts) > 0:
+        outputs = [artifact for artifact in ctx.outputs.artifacts]
+        outputs.append(output)
+    else:
+        outputs = [output]
 
     ctx.actions.run_shell(
         mnemonic = "kibot",
-        outputs = [output],
+        outputs = outputs,
         inputs = [cfg_file, pcb] + sch,
         command = "kibot -e {} -b {} -c {} -d {} {}".format(
             sch[0].short_path,
@@ -317,7 +324,7 @@ def _kibot_impl(ctx):
     )
 
     return [
-        DefaultInfo(files = depset([output])),
+        DefaultInfo(files = depset(outputs)),
     ]
 
 kibot = rule(
@@ -344,6 +351,11 @@ kibot = rule(
             allow_single_file = True,
             mandatory = True,
         ),
+        "artifacts": attr.output_list(
+            doc = "additional output files",
+            allow_empty = True,
+            mandatory = False,
+        )
     },
 )
 
@@ -381,6 +393,8 @@ def kicad_hardware(
     $ bazel build --config=docker-kicad //vehicle/mkv/hardware/lvbox/bspd:bspd_brakelight.gerbers.zip # builds zip file with GERBERs and drill file
     ```
     """
+    #TODO: suppoert for 4 layer
+    gerbers2layer = ["B_Cu.gbl", "B_Mask.gbs", "B_Paste.gbp", "B_Silkscreen.gbo", "drill.drl", "drill_map.ps", "Edge_Cuts.gm1", "F_Cu.gtl", "F_Mask.gts", "F_Paste.gtp", "F_Silkscreen.gto", "job.gbrjob"]
 
     if not project_file:
         project_file = ":{}.kicad_pro".format(name)
@@ -402,6 +416,16 @@ def kicad_hardware(
             # ":{}.step".format(name),
         ],
         extension = "tgz",
+        mode = "0755",
+        tags = ["kicad"],
+    )
+
+    # fab files (gerbers, drill) zipped
+    pkg_zip(
+        name = "gerbers.zip".format(name),
+        out = "{}.gerbers.zip".format(name),
+        srcs = ["gerbers/{}-{}".format(name, layer) for layer in gerbers2layer],
+        strip_prefix = strip_prefix.from_pkg(),
         mode = "0755",
         tags = ["kicad"],
     )
@@ -451,6 +475,15 @@ def kicad_hardware(
         tags = ["kicad"],
     )
 
+    kibot(
+        name = "gerbers".format(name),
+        config_file = "//scripts/kibot:build.kibot.yaml",
+        output_name = ["gerbers", "drill"],
+        pcb_file = pcb_file,
+        schematic_files = schematic_files,
+        artifacts = ["gerbers/{}-{}".format(name, layer) for layer in gerbers2layer],
+        tags = ["kicad"],
+    )
     # Once 3D modles are sorted out, this will be uncommented
     # kibot(
     #     name = "{}.step".format(name),
