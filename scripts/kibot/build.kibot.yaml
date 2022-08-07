@@ -38,18 +38,23 @@ outputs:
       - 'Edge.Cuts'
       - 'F.Paste'
       - 'B.Paste'
-      - 'F.SilkS'
-      - 'B.SilkS'
+      - 'F.Silkscreen'
+      - 'B.Silkscreen'
       - 'F.Mask'
       - 'B.Mask'
+    dir: 'gerbers'
     options:
+      create_gerber_job_file: true
       use_protel_extensions: true
 
   - name: drill
     type: excellon
+    dir: 'gerbers'
     options:
       metric_units: false
       zeros_format: 'SUPPRESS_LEADING'
+      # this may vary by manufacturer - update based on what we select for this season
+      pth_and_npth_single_file: true
       map:
         output: '%f-%i%v.%x'
         type: 'ps'
