@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Eclectronics")(type "KiCad")(uri "${OEM_DIR}/projects/resistive-load/Eclectronics/Eclectronics.kicad_sym")(options "")(descr ""))
+)
