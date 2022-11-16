@@ -111,10 +111,18 @@
       (symbol "PJP45N06A_T0_00001_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -127,26 +135,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -159,22 +151,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -183,11 +159,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -199,16 +185,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -230,30 +206,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -283,10 +259,18 @@
       (symbol "PJP45N06A_T0_00001_1_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -299,26 +283,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -331,22 +299,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -355,11 +307,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -371,16 +333,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -402,30 +354,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_1_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -455,10 +407,18 @@
       (symbol "PJP45N06A_T0_00001_10_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -471,26 +431,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -503,22 +447,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -527,11 +455,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -543,16 +481,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -574,30 +502,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_10_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -627,10 +555,18 @@
       (symbol "PJP45N06A_T0_00001_11_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -643,26 +579,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -675,22 +595,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -699,11 +603,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -715,16 +629,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -746,30 +650,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_11_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -799,10 +703,18 @@
       (symbol "PJP45N06A_T0_00001_12_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -815,26 +727,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -847,22 +743,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -871,11 +751,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -887,16 +777,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -918,30 +798,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_12_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -971,10 +851,18 @@
       (symbol "PJP45N06A_T0_00001_13_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -987,26 +875,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1019,22 +891,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1043,11 +899,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1059,16 +925,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1090,30 +946,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_13_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1143,10 +999,18 @@
       (symbol "PJP45N06A_T0_00001_14_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1159,26 +1023,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1191,22 +1039,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1215,11 +1047,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1231,16 +1073,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1262,30 +1094,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_14_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1315,10 +1147,18 @@
       (symbol "PJP45N06A_T0_00001_2_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1331,26 +1171,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1363,22 +1187,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1387,11 +1195,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1403,16 +1221,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1434,30 +1242,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_2_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1487,10 +1295,18 @@
       (symbol "PJP45N06A_T0_00001_3_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1503,26 +1319,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1535,22 +1335,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1559,11 +1343,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1575,16 +1369,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1606,30 +1390,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_3_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1659,10 +1443,18 @@
       (symbol "PJP45N06A_T0_00001_4_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1675,26 +1467,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1707,22 +1483,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1731,11 +1491,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1747,16 +1517,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1778,30 +1538,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_4_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1831,10 +1591,18 @@
       (symbol "PJP45N06A_T0_00001_5_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1847,26 +1615,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1879,22 +1631,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -1903,11 +1639,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -1919,16 +1665,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -1950,30 +1686,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_5_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2003,10 +1739,18 @@
       (symbol "PJP45N06A_T0_00001_6_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2019,26 +1763,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2051,22 +1779,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -2075,11 +1787,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2091,16 +1813,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -2122,30 +1834,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_6_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2175,10 +1887,18 @@
       (symbol "PJP45N06A_T0_00001_7_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2191,26 +1911,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2223,22 +1927,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -2247,11 +1935,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2263,16 +1961,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -2294,30 +1982,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_7_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2347,10 +2035,18 @@
       (symbol "PJP45N06A_T0_00001_8_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2363,26 +2059,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2395,22 +2075,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -2419,11 +2083,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2435,16 +2109,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -2466,30 +2130,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_8_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2519,10 +2183,18 @@
       (symbol "PJP45N06A_T0_00001_9_0_1"
         (polyline
           (pts
-            (xy 0.762 -1.778)
-            (xy 2.54 -1.778)
+            (xy 0.254 0)
+            (xy -2.54 0)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.254 1.905)
+            (xy 0.254 -1.905)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2535,26 +2207,10 @@
         )
         (polyline
           (pts
-            (xy 0.762 0)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 0.762 0.508)
             (xy 0.762 -0.508)
           )
           (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2567,22 +2223,6 @@
         )
         (polyline
           (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 2.54 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy 2.54 2.54)
             (xy 2.54 1.778)
           )
@@ -2591,11 +2231,21 @@
         )
         (polyline
           (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-            (xy 0.254 -1.905)
+            (xy 2.54 -2.54)
+            (xy 2.54 0)
+            (xy 0.762 0)
           )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.778)
+            (xy 3.302 -1.778)
+            (xy 3.302 1.778)
+            (xy 0.762 1.778)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
         (polyline
@@ -2607,16 +2257,6 @@
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -1.778)
-            (xy 3.302 -1.778)
-            (xy 3.302 1.778)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
         )
         (polyline
           (pts
@@ -2638,30 +2278,30 @@
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 1.651 0) (radius 2.8194)
+        (circle (center 1.651 0) (radius 2.794)
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (circle (center 2.54 -1.778) (radius 0.2794)
+        (circle (center 2.54 -1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
-        (circle (center 2.54 1.778) (radius 0.2794)
+        (circle (center 2.54 1.778) (radius 0.254)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type outline))
         )
       )
       (symbol "PJP45N06A_T0_00001_9_1_1"
-        (pin input line (at -5.08 0 0) (length 5.334)
+        (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
           (name "D" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3294,7 +2934,7 @@
   (symbol (lib_id "power:GND") (at 54.61 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 06a74a42-60ec-4895-9762-195670ac6133)
-    (property "Reference" "#PWR0188" (id 0) (at 54.61 44.45 0)
+    (property "Reference" "#PWR?" (id 0) (at 54.61 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 54.61 43.18 0))
@@ -3310,7 +2950,7 @@
   (symbol (lib_id "power:+BATT") (at 105.41 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0b719a11-47f2-40ad-97c9-08bdb33518f7)
-    (property "Reference" "#PWR0145" (id 0) (at 105.41 167.64 0)
+    (property "Reference" "#PWR?" (id 0) (at 105.41 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 105.41 158.75 0))
@@ -3326,7 +2966,7 @@
   (symbol (lib_id "power:+12V") (at 26.67 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 0ce1810d-c028-48af-be87-628893a03505)
-    (property "Reference" "#PWR0183" (id 0) (at 26.67 29.21 0)
+    (property "Reference" "#PWR?" (id 0) (at 26.67 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 26.67 20.32 0))
@@ -3383,7 +3023,7 @@
   (symbol (lib_id "power:GND") (at 163.83 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 16c4443e-bc8e-4845-a507-f613579259ba)
-    (property "Reference" "#PWR0165" (id 0) (at 163.83 48.26 0)
+    (property "Reference" "#PWR?" (id 0) (at 163.83 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 163.83 46.99 0))
@@ -3460,7 +3100,7 @@
   (symbol (lib_id "power:GND") (at 243.84 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2286bffb-3f32-4029-bb2e-0ed7d70a6540)
-    (property "Reference" "#PWR0171" (id 0) (at 243.84 45.72 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 243.84 44.45 0))
@@ -3476,7 +3116,7 @@
   (symbol (lib_id "power:GND") (at 53.34 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 262226ed-e7c0-43d0-ab18-0b8ee1194551)
-    (property "Reference" "#PWR0193" (id 0) (at 53.34 118.11 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.34 116.84 0))
@@ -3492,7 +3132,7 @@
   (symbol (lib_id "power:GND") (at 82.55 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 281cbd0e-6d11-4ec0-b63b-fbc8449992e6)
-    (property "Reference" "#PWR0187" (id 0) (at 82.55 85.09 0)
+    (property "Reference" "#PWR?" (id 0) (at 82.55 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 82.55 83.82 0))
@@ -3508,7 +3148,7 @@
   (symbol (lib_id "power:GND") (at 220.98 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f4e4168-ae3b-4663-a7d7-bd84e7c39bb9)
-    (property "Reference" "#PWR0169" (id 0) (at 220.98 45.72 0)
+    (property "Reference" "#PWR?" (id 0) (at 220.98 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 220.98 44.45 0))
@@ -3546,7 +3186,7 @@
   (symbol (lib_id "power:+BATT") (at 191.77 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 307a80aa-75a9-4317-8a98-3e62ad21d5a3)
-    (property "Reference" "#PWR0166" (id 0) (at 191.77 58.42 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 191.77 49.53 0))
@@ -3562,7 +3202,7 @@
   (symbol (lib_id "power:GND") (at 26.67 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 30942c69-8470-4460-9bf1-ea272e849155)
-    (property "Reference" "#PWR0184" (id 0) (at 26.67 46.99 0)
+    (property "Reference" "#PWR?" (id 0) (at 26.67 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 26.67 45.72 0))
@@ -3578,7 +3218,7 @@
   (symbol (lib_id "power:GND") (at 243.84 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 317bed4b-2368-453a-a80f-001e25a7dd80)
-    (property "Reference" "#PWR0177" (id 0) (at 243.84 146.05 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 243.84 144.78 0))
@@ -3614,7 +3254,7 @@
   (symbol (lib_id "power:+12V") (at 163.83 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 32e87954-e3ab-4385-83f9-5a95d4166ad6)
-    (property "Reference" "#PWR0156" (id 0) (at 163.83 97.79 0)
+    (property "Reference" "#PWR?" (id 0) (at 163.83 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 163.83 88.9 0))
@@ -3630,7 +3270,7 @@
   (symbol (lib_id "power:GND") (at 82.55 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 35249663-0a6b-47b7-8b0a-d1e77d7a5458)
-    (property "Reference" "#PWR0194" (id 0) (at 82.55 118.11 0)
+    (property "Reference" "#PWR?" (id 0) (at 82.55 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 82.55 116.84 0))
@@ -3690,7 +3330,7 @@
   (symbol (lib_id "power:+12V") (at 25.4 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 36e03eb0-4fec-40b5-8a4a-393b5e49c8ff)
-    (property "Reference" "#PWR0181" (id 0) (at 25.4 69.85 0)
+    (property "Reference" "#PWR?" (id 0) (at 25.4 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 25.4 60.96 0))
@@ -3706,7 +3346,7 @@
   (symbol (lib_id "power:GND") (at 220.98 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 379c50b2-82da-4cca-a7aa-afb8d333f524)
-    (property "Reference" "#PWR0161" (id 0) (at 220.98 113.03 0)
+    (property "Reference" "#PWR?" (id 0) (at 220.98 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 220.98 111.76 0))
@@ -3722,7 +3362,7 @@
   (symbol (lib_id "power:+BATT") (at 191.77 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 393f2383-e943-40fa-9f4d-272a904e7c23)
-    (property "Reference" "#PWR0167" (id 0) (at 191.77 25.4 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 191.77 16.51 0))
@@ -3738,7 +3378,7 @@
   (symbol (lib_id "power:GND") (at 83.82 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3981a962-4af2-41d0-8e16-3d8231072711)
-    (property "Reference" "#PWR0197" (id 0) (at 83.82 44.45 0)
+    (property "Reference" "#PWR?" (id 0) (at 83.82 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 83.82 43.18 0))
@@ -3813,7 +3453,7 @@
   (symbol (lib_id "power:+BATT") (at 243.84 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 52243244-d4f2-4a40-b31a-04e1d20edaad)
-    (property "Reference" "#PWR0174" (id 0) (at 243.84 125.73 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 243.84 116.84 0))
@@ -3829,7 +3469,7 @@
   (symbol (lib_id "power:GND") (at 25.4 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 56a8f119-c386-404f-a8ea-e07243a3eed2)
-    (property "Reference" "#PWR0172" (id 0) (at 25.4 157.48 0)
+    (property "Reference" "#PWR?" (id 0) (at 25.4 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 25.4 156.21 0))
@@ -3946,7 +3586,7 @@
   (symbol (lib_id "power:GND") (at 105.41 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6cecfbbe-9e2e-4c21-872e-07d2cc030184)
-    (property "Reference" "#PWR0147" (id 0) (at 105.41 154.94 0)
+    (property "Reference" "#PWR?" (id 0) (at 105.41 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 105.41 153.67 0))
@@ -3984,7 +3624,7 @@
   (symbol (lib_id "power:GND") (at 53.34 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6d7288bb-296c-401b-abd1-6fb1a8891c4f)
-    (property "Reference" "#PWR0196" (id 0) (at 53.34 85.09 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.34 83.82 0))
@@ -4000,7 +3640,7 @@
   (symbol (lib_id "power:+BATT") (at 53.34 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7377ff65-78ca-4f76-b676-fae31623c75e)
-    (property "Reference" "#PWR0148" (id 0) (at 53.34 167.64 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 53.34 158.75 0))
@@ -4058,7 +3698,7 @@
   (symbol (lib_id "power:+BATT") (at 243.84 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7d4fbc03-7c44-40eb-9804-190dd9a427e4)
-    (property "Reference" "#PWR0190" (id 0) (at 243.84 92.71 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 243.84 83.82 0))
@@ -4093,7 +3733,7 @@
   (symbol (lib_id "power:+BATT") (at 53.34 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 922849a6-e93d-4c14-93c2-b5ed13ccb241)
-    (property "Reference" "#PWR0195" (id 0) (at 53.34 97.79 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 53.34 88.9 0))
@@ -4151,7 +3791,7 @@
   (symbol (lib_id "power:GND") (at 53.34 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 99737016-6c25-4cbe-a350-4d55dc59f87c)
-    (property "Reference" "#PWR0152" (id 0) (at 53.34 154.94 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.34 153.67 0))
@@ -4167,7 +3807,7 @@
   (symbol (lib_id "power:+BATT") (at 53.34 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 99c9065a-5c36-45bf-9b0d-838fd75af533)
-    (property "Reference" "#PWR0154" (id 0) (at 53.34 134.62 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 53.34 125.73 0))
@@ -4203,7 +3843,7 @@
   (symbol (lib_id "power:GND") (at 191.77 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a2591827-cd6c-4914-86a6-166845ba44e5)
-    (property "Reference" "#PWR0163" (id 0) (at 191.77 45.72 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 44.45 0))
@@ -4219,7 +3859,7 @@
   (symbol (lib_id "power:GND") (at 220.98 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a30fca96-169e-49dd-b32d-f501765e851f)
-    (property "Reference" "#PWR0179" (id 0) (at 220.98 146.05 0)
+    (property "Reference" "#PWR?" (id 0) (at 220.98 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 220.98 144.78 0))
@@ -4257,7 +3897,7 @@
   (symbol (lib_id "power:+BATT") (at 53.34 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a8ee3965-00f3-4a7c-a98f-6a95c29756f9)
-    (property "Reference" "#PWR0186" (id 0) (at 53.34 64.77 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 53.34 55.88 0))
@@ -4273,7 +3913,7 @@
   (symbol (lib_id "power:GND") (at 273.05 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a9407585-fcef-457e-9208-baaac7908ab8)
-    (property "Reference" "#PWR0180" (id 0) (at 273.05 146.05 0)
+    (property "Reference" "#PWR?" (id 0) (at 273.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 273.05 144.78 0))
@@ -4289,7 +3929,7 @@
   (symbol (lib_id "power:GND") (at 220.98 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b28396c7-8566-487e-a302-1f4cb2fa16fb)
-    (property "Reference" "#PWR0159" (id 0) (at 220.98 78.74 0)
+    (property "Reference" "#PWR?" (id 0) (at 220.98 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 220.98 77.47 0))
@@ -4305,7 +3945,7 @@
   (symbol (lib_id "power:GND") (at 191.77 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b431fd0a-ee85-4233-8a03-94be2608873c)
-    (property "Reference" "#PWR0158" (id 0) (at 191.77 78.74 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 77.47 0))
@@ -4379,7 +4019,7 @@
   (symbol (lib_id "power:GND") (at 273.05 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b6f2321c-1115-4f8b-9c13-5d327c904f8f)
-    (property "Reference" "#PWR0170" (id 0) (at 273.05 45.72 0)
+    (property "Reference" "#PWR?" (id 0) (at 273.05 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 273.05 44.45 0))
@@ -4456,7 +4096,7 @@
   (symbol (lib_id "power:+BATT") (at 191.77 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bbac31f9-eec8-462e-9d35-8060044553b1)
-    (property "Reference" "#PWR0162" (id 0) (at 191.77 125.73 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 191.77 116.84 0))
@@ -4552,7 +4192,7 @@
   (symbol (lib_id "power:GND") (at 191.77 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c378e175-0815-48ed-afbf-7a732a103e91)
-    (property "Reference" "#PWR0160" (id 0) (at 191.77 113.03 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 111.76 0))
@@ -4568,7 +4208,7 @@
   (symbol (lib_id "power:GND") (at 25.4 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c458ac60-abab-41bf-b198-9539df1eacdf)
-    (property "Reference" "#PWR0182" (id 0) (at 25.4 87.63 0)
+    (property "Reference" "#PWR?" (id 0) (at 25.4 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 25.4 86.36 0))
@@ -4626,7 +4266,7 @@
   (symbol (lib_id "power:+BATT") (at 105.41 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cf587a57-325c-440b-8c47-139fa414a5a0)
-    (property "Reference" "#PWR0151" (id 0) (at 105.41 134.62 0)
+    (property "Reference" "#PWR?" (id 0) (at 105.41 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 105.41 125.73 0))
@@ -4642,7 +4282,7 @@
   (symbol (lib_id "power:GND") (at 243.84 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d21dce5b-2141-49ca-8576-0296edf5e8f0)
-    (property "Reference" "#PWR0175" (id 0) (at 243.84 113.03 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 243.84 111.76 0))
@@ -4658,7 +4298,7 @@
   (symbol (lib_id "power:GND") (at 243.84 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d8c220e6-b817-4976-99e0-44312e67b9c9)
-    (property "Reference" "#PWR0191" (id 0) (at 243.84 78.74 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 243.84 77.47 0))
@@ -4693,7 +4333,7 @@
   (symbol (lib_id "power:GND") (at 163.83 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid de9133df-cd72-40d9-b5ac-0eb022f0ad04)
-    (property "Reference" "#PWR0155" (id 0) (at 163.83 115.57 0)
+    (property "Reference" "#PWR?" (id 0) (at 163.83 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 163.83 114.3 0))
@@ -4709,7 +4349,7 @@
   (symbol (lib_id "power:GND") (at 105.41 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid df6593c4-9130-447c-8415-16bbd79ba294)
-    (property "Reference" "#PWR0146" (id 0) (at 105.41 187.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 105.41 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 105.41 186.69 0))
@@ -4747,7 +4387,7 @@
   (symbol (lib_id "power:+BATT") (at 243.84 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid df8b6f18-0990-4a20-af47-85b1b2417362)
-    (property "Reference" "#PWR0189" (id 0) (at 243.84 58.42 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 243.84 49.53 0))
@@ -4763,7 +4403,7 @@
   (symbol (lib_id "power:GND") (at 273.05 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e3eee1d1-1711-4f9b-9b76-f76fd8c12c66)
-    (property "Reference" "#PWR0192" (id 0) (at 273.05 78.74 0)
+    (property "Reference" "#PWR?" (id 0) (at 273.05 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 273.05 77.47 0))
@@ -4779,7 +4419,7 @@
   (symbol (lib_id "power:+BATT") (at 243.84 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e60368c5-ebde-44f2-93ee-d0a2374f1dce)
-    (property "Reference" "#PWR0168" (id 0) (at 243.84 25.4 0)
+    (property "Reference" "#PWR?" (id 0) (at 243.84 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 243.84 16.51 0))
@@ -4795,7 +4435,7 @@
   (symbol (lib_id "power:+BATT") (at 191.77 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e61787ff-8750-4423-8eb3-41eed440d8e5)
-    (property "Reference" "#PWR0157" (id 0) (at 191.77 92.71 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 191.77 83.82 0))
@@ -4811,7 +4451,7 @@
   (symbol (lib_id "power:GND") (at 134.62 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e9a8a240-b2da-4f55-9439-92b3fe45e650)
-    (property "Reference" "#PWR0144" (id 0) (at 134.62 187.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 134.62 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 134.62 186.69 0))
@@ -4827,7 +4467,7 @@
   (symbol (lib_id "power:+12V") (at 25.4 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e9bb57b5-bdf9-4567-81c5-b737878695f3)
-    (property "Reference" "#PWR0173" (id 0) (at 25.4 139.7 0)
+    (property "Reference" "#PWR?" (id 0) (at 25.4 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 25.4 130.81 0))
@@ -4843,7 +4483,7 @@
   (symbol (lib_id "power:GND") (at 273.05 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid eab2b5dd-d800-4a62-b893-a50525983887)
-    (property "Reference" "#PWR0176" (id 0) (at 273.05 113.03 0)
+    (property "Reference" "#PWR?" (id 0) (at 273.05 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 273.05 111.76 0))
@@ -4878,7 +4518,7 @@
   (symbol (lib_id "power:GND") (at 53.34 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ede20b78-27d6-43e8-aeb9-057068de3866)
-    (property "Reference" "#PWR0149" (id 0) (at 53.34 187.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 53.34 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 53.34 186.69 0))
@@ -4894,7 +4534,7 @@
   (symbol (lib_id "power:GND") (at 191.77 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ee9f2fc0-c8ec-4bd6-9255-f8f1e9466e53)
-    (property "Reference" "#PWR0178" (id 0) (at 191.77 146.05 0)
+    (property "Reference" "#PWR?" (id 0) (at 191.77 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 191.77 144.78 0))
@@ -4910,7 +4550,7 @@
   (symbol (lib_id "power:+BATT") (at 54.61 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid efa25a7a-690f-43ac-bffd-a4f4a2c1051b)
-    (property "Reference" "#PWR0185" (id 0) (at 54.61 24.13 0)
+    (property "Reference" "#PWR?" (id 0) (at 54.61 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 54.61 15.24 0))
@@ -4926,7 +4566,7 @@
   (symbol (lib_id "power:GND") (at 82.55 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f1d81e84-7c81-412c-bc4a-7729ad9397c1)
-    (property "Reference" "#PWR0150" (id 0) (at 82.55 187.96 0)
+    (property "Reference" "#PWR?" (id 0) (at 82.55 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 82.55 186.69 0))
@@ -4942,7 +4582,7 @@
   (symbol (lib_id "power:GND") (at 134.62 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f2945557-7a6e-4856-b067-8177406435ec)
-    (property "Reference" "#PWR0143" (id 0) (at 134.62 154.94 0)
+    (property "Reference" "#PWR?" (id 0) (at 134.62 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 134.62 153.67 0))
@@ -5018,7 +4658,7 @@
   (symbol (lib_id "power:GND") (at 82.55 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fd53b422-0044-45c3-af7f-4c4a6bcea4d0)
-    (property "Reference" "#PWR0153" (id 0) (at 82.55 154.94 0)
+    (property "Reference" "#PWR?" (id 0) (at 82.55 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 82.55 153.67 0))
@@ -5034,7 +4674,7 @@
   (symbol (lib_id "power:+12V") (at 163.83 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fe0ca642-e270-411f-b840-8c6e7fb9ca6d)
-    (property "Reference" "#PWR0164" (id 0) (at 163.83 30.48 0)
+    (property "Reference" "#PWR?" (id 0) (at 163.83 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (id 1) (at 163.83 21.59 0))
