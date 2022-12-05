@@ -1,0 +1,5 @@
+subscribe:
+- name: LV error
+  canId: 0XD
+- name: HV error
+  canId: 2
