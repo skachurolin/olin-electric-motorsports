@@ -8,5 +8,6 @@ dbc_gen(
         "//vehicle/common/motor_controller:motor_controller.dbc",
         "//vehicle/mkvi/software/air_control:air.yml",
         "//vehicle/mkvi/software/bms:bms.yml",
+        "//vehicle/mkvi/software/bms/charging:charging.yml",
     ],
 )
