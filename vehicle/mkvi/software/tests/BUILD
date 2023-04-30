@@ -8,6 +8,7 @@ pytest_test(
     ],
     data = [
         "//vehicle/mkvi:mkvi.dbc",
+        "//vehicle/mkvi/software/air_control:air_control_patched.bin",
     ],
     deps = [
         "//projects/btldr/py_client:btldr",  # For flashing
